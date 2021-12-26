@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+        <!--=============== BOXICONS ===============-->
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+        <!--=============== SWIPER CSS ===============--> 
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>♥ Merry Christmas With Quynh Anh ♥</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <img src="assets/img/logo.png" alt="" class="nav__logo-img"> 
+                    Quỳnh ♥ Anh
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Trang chủ</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#celebrate" class="nav__link">Kỉ niệm</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#gift" class="nav__link">Gifts</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#wish" class="nav__link">Điều ước</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class='bx bx-x' ></i>
+                    </div>
+
+                    <img src="assets/img/nav-light.png" alt="" class="nav__img">
+                </div>
+                <div class="nav__btns">
+                    <!-- Theme change button -->
+                    <i class='bx bx-moon change-theme' id="theme-button"></i>
+
+                    <!-- Toggle button -->
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class='bx bx-grid-alt' ></i>
+                    </div>
+                </div>
+
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <div class="home__container container grid">
+                    <img src="assets/img/home.png" alt="" class="home__img">
+
+                    <div class="home__data">
+                        <h1 class="home__title">Merry Christmas and <br> Happy New Year <br> My Bae ♥ ♥ ♥ </h1>
+                        <p class="home__description">
+                            Christmas and a new year is about to begin, 
+                            all good wishes and successes.
+                        </p>
+                        <a href="#" class="button">Get Started</a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== GIVING ====================-->
+            <section class="giving section container">
+                <h2 class="section__title">
+                    Bảo Bối thần kì
+                </h2>
+
+                <div class="giving__container grid">
+                    <div class="giving__content">
+                        <img src="assets/img/giving1.png" alt="" class="giving__img">
+                        <h3 class="giving__title">Món quà vô giá</h3>
+                        <p class="giving__description">You are my best gifts.</p>
+                    </div>
+
+                    <div class="giving__content">
+                        <img src="assets/img/giving2.png" alt="" class="giving__img">
+                        <h3 class="giving__title">Chuông thần kì</h3>
+                        <p class="giving__description">Em hãy lắng nghe nhịp đập con tim anh.</p>
+                    </div>
+
+                    <div class="giving__content">
+                        <img src="assets/img/giving3.png" alt="" class="giving__img">
+                        <h3 class="giving__title">Gang tay tình yêu</h3>
+                        <p class="giving__description">Giữ ấm và bảo vệ bàn tay xinh xắn của em khi không có anh bên cạnh.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== CELEBRATE ====================-->
+            <section class="celebrate section container" id="celebrate">
+                <div class="celebrate__container grid">
+                    <div class="celebrate__data">
+                        <h2 class="section__title celebrate__title">
+                            Lời mở đầu của anh
+                        </h2>
+                        <p class="celebrate__description">
+                            Ngày 24/12/2021, Đây là giáng sinh đầu tiên anh bên em và
+                            cũng là giáng sinh đầu tiên anh tự tay làm món quà cho Quynh Anh ^^
+                            Tuy chúng ta chưa thể gặp nhau, anh chưa thể dẫn em đi dạo phố
+                            và cùng nhau ăn những món mình thích, cùng tận hưởng không khí giáng sinh.
+                            Điều mà anh chưa từng có được từ bấy lâu nay. Anh hi vọng món quà nhỏ này
+                            sẽ thay anh nói lên những tâm tư, tình cảm từ tận ♥ nhỏ bé này !!!
+                        </p>
+                        <a href="#" class="button">Send Good Wishes</a>
+                    </div>
+
+                    <img src="assets/img/4.jpg" alt="" class="celebrate__img">
+                </div>
+            </section>
+
+            <!--==================== GIFT ====================-->
+            <section class="gift section container" id="gift">
+                <h2 class="section__title">Which is you like the most ♥ </h2>
+
+                <div class="gift__container grid">
+                    <article class="gift__card" id="myBtn1">
+                        <img src="assets/img/gift1.png" alt="" class="gift__img">
+                        <i class='bx bx-heart gift__icon'></i>
+                        <h3 class="gift__price">♥ 0612</h3>
+                        <span class="gift__title">Gingerbread</span>
+                    </article>
+                    <!-- Modal Cho Website -->
+                    <div id="myModal1" class="modal">
+                        <div class="modal-content">
+                        <span class="close1 close">&times;</span>
+                        <div class="imgs">
+                            <img src="assets/img/cf.jpg" alt="" class="gift__img img-modal">
+                            <div class="title1">
+                                <p>Bánh quy no đủ ♥</p>
+                                <p>Anh sẽ nấu cơm, chăm sóc em và không để em bị bỏ đói đâu nha ♥</p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    <article class="gift__card" id="myBtn2">
+                        <img src="assets/img/gift2.png" alt="" class="gift__img">
+                        <i class='bx bx-heart gift__icon'></i>
+                        
+                        <h3 class="gift__price">♥ 0909</h3>
+                        <span class="gift__title">Santa Claus Hat</span>
+                    </article>
+                    <!-- Modal Cho Website -->
+                    <div id="myModal2" class="modal">
+                        <div class="modal-content">
+                        <span class="close2 close">&times;</span>
+                        <div class="imgs">
+                            <img src="assets/img/flo.jpg" alt="" class="gift__img img-modal">
+                            <div class="title2">
+                                <p>Mũ len trí tuệ ♥</p>
+                                <p>Chiếc mũ này tượng trưng cho sự thông minh của ai đó á, 
+                                    nó sẽ mang lại cho em sự thông thái và bao dung ♥</p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    <article class="gift__card" id="myBtn3">
+                        <img src="assets/img/gift3.png" alt="" class="gift__img">
+                        <i class='bx bx-heart gift__icon'></i>
+                        
+                        <h3 class="gift__price">♥ 0103</h3>
+                        <span class="gift__title">Christmas Tree</span>
+                    </article>
+                    <!-- Modal Cho Website -->
+                    <div id="myModal3" class="modal">
+                        <div class="modal-content">
+                        <span class="close3 close">&times;</span>
+                        <div class="imgs">
+                            <img src="assets/img/p3.jpg" alt="" class="gift__img img-modal">
+                            <div class="title3">
+                                <p>Cay thông che chở ♥</p>
+                                <p>Tuy rằng 'nóc' nhà là ai đó nhưng hãy để anh 
+                                    che chở và bảo vệ cho Quỳnh nha ♥</p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    <article class="gift__card" id="myBtn4">
+                        <img src="assets/img/gift4.png" alt="" class="gift__img">
+                        <i class='bx bx-heart gift__icon'></i>
+                        <h3 class="gift__price">♥ 9903</h3>
+                        <span class="gift__title">Snowman</span>
+                    </article>
+                    <!-- Modal Cho Website -->
+                    <div id="myModal4" class="modal">
+                        <div class="modal-content">
+                        <span class="close4 close">&times;</span>
+                        <div class="imgs">
+                            <img src="assets/img/p4.jpg" alt="" class="gift__img img-modal">
+                            <div class="title4">
+                                <p>♥ Người tuyết ấm áp ♥</p>
+                                <p>Lạnh lùng, băng giá với người ngoài nhưng sẽ thật ấm áp dịu dàng với em ♥</p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    <article class="gift__card" id="myBtn5">
+                        <img src="assets/img/gift5.png" alt="" class="gift__img">
+                        <i class='bx bx-heart gift__icon'></i>
+                        
+                        <h3 class="gift__price">♥ 1203</h3>
+                        <span class="gift__title">Candy Stick</span>
+                    </article>
+                    <!-- Modal Cho Website -->
+                    <div id="myModal5" class="modal">
+                        <div class="modal-content">
+                        <span class="close5 close">&times;</span>
+                        <div class="imgs">
+                            <img src="assets/img/p5.jpg" alt="" class="gift__img img-modal">
+                            <div class="title5">
+                                <p>Chiếc kẹo thần kì ♥</p>
+                                <p>Anh sẽ là chiếc kẹo ngọt ngào nhất của em :p</p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    <article class="gift__card" id="myBtn6">
+                        <img src="assets/img/giving1.png" alt="" class="gift__img">
+                        <i class='bx bx-heart gift__icon'></i>           
+                        <h3 class="gift__price">♥ 6123</h3>
+                        <span class="gift__title">Candy Stick</span>
+                    </article>
+                    <!-- Modal Cho Website -->
+                    <div id="myModal6" class="modal">
+                        <div class="modal-content">
+                        <span class="close6 close">&times;</span>
+                        <div class="imgs">
+                            <img src="assets/img/p2.jpg" alt="" class="gift__img img-modal">
+                            <div class="title6">
+                                <p>Hmm... Ai đó rất biết chọn heng ^^</p>
+                                <p>Hộp quà này chỉ dành riêng cho bé Quỳnh thui nhaa ♥♥♥</p>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== NEW ====================-->
+            <section class="new section container" id="new">
+                <h2 class="section__title">♥ Thiên thần bé bỏng của anh ♥</h2>
+
+                <div class="new__container">
+                    <div class="swiper new-swiper">
+                        <div class="swiper-wrapper">
+                            <article class="new__card swiper-slide">
+                                <div class="new__overlay"></div>
+
+                                <!-- <img src="assets/img/2.jpg" alt="" class="new__img"> -->
+                                <video controls autoplay class="new__img">
+                                    <source src="assets/img/5.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                                <h3 class="new__price">♥ 100000</h3>
+                                <span class="new__title">Baby</span>
+                                
+                                <button class="button new__button">
+                                    <i class='bx bx-heart new__icon'></i>
+                                </button>
+                            </article>
+
+                            <article class="new__card swiper-slide">
+                                <div class="new__overlay"></div>
+
+                                <!-- <img src="assets/img/6.mp4" alt="" class="new__img"> -->
+                                <video controls class="new__img">
+                                    <source src="assets/img/6.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                                <h3 class="new__price">♥ 100000</h3>
+                                <span class="new__title">Quý Phái</span>
+
+                                <button class="button new__button">
+                                    <i class='bx bx-heart new__icon'></i>
+                                </button>
+                            </article>
+
+                            <article class="new__card swiper-slide">
+                                <div class="new__overlay"></div>
+
+                                <!-- <img src="assets/img/" alt="" class="new__img"> -->
+                                <video controls class="new__img">
+                                    <source src="assets/img/7.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                                <h3 class="new__price">♥ 100000</h3>
+                                <span class="new__title">Dịu Dàng</span>
+
+                                <button class="button new__button">
+                                    <i class='bx bx-heart new__icon'></i>
+                                </button>
+                            </article>
+
+                            <!-- <article class="new__card swiper-slide">
+                                <div class="new__overlay"></div>
+
+                                <img src="assets/img/3.jpg" alt="" class="new__img">
+                                <h3 class="new__price">♥100</h3>
+                                <span class="new__title">Ngây thơ</span>
+
+                                <button class="button new__button">
+                                    <i class='bx bx-heart new__icon'></i>
+                                </button>
+                            </article> -->
+                        </div>
+
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== MESSAGE ====================-->
+            <section class="message section container" id="wish">
+                <div class="message__container grid">
+                    <form action="" class="message__form">
+                        <h3 class="message__title">Điều ước của em là gì nào ^^</h3>
+                        <input type="email" placeholder="Write your message" class="message__input">
+                        <button class="button message__button" id="myBtn7">Send Message</button>
+                    </form>
+
+                    <img src="assets/img/3.jpg" alt="" class="message__img">
+
+                    <div id="myModal7" class="modal">
+                        <div class="modal-content">
+                        <span class="close7 close">&times;</span>
+                        <div class="imgs">
+                            <img src="assets/img/p6.jpg" alt="" class="gift__img img-modal">
+                            <div class="title8">
+                                <p>Điều ước của bé đã được chuyển đến trái tim của anh ^^</p>
+                                <p>Em hãy ở yên đó và chờ anh một chút nha, anh sắp đem điều ước đến cho em rùi ♥ </p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div>
+                    <a href="#" class="footer__logo">
+                        <img src="assets/img/logo.png" alt="" class="footer__logo-img"> 
+                        Christmas
+                    </a>
+
+                    <p class="footer__description">
+                        This Christmas give <br> a lot of love for you ♥
+                    </p>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">Our Services</h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Pricing</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Discounts</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Shipping mode</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">Support</h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">FAQs</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Support center</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- <div>
+                    <h3 class="footer__title">Available On</h3>
+
+                    <div class="footer__aviables">
+                        <img src="assets/img/aviable1.png" alt="" class="footer__aviable-img">
+                        <img src="assets/img/aviable2.png" alt="" class="footer__aviable-img">
+                    </div>
+                </div> -->
+
+                <img src="assets/img/footer1.png" alt="" class="footer__img1">
+                <img src="assets/img/footer2.png" alt="" class="footer__img2">
+            </div>
+
+            <span class="footer__copy">&#169; QA Company. All rigths reserved 2021</span>
+        </footer>
+
+        <!--=============== SCROLL UP ===============-->
+        <a href="#" class="scrollup" id="scroll-up"> 
+            <i class='bx bx-up-arrow-alt scrollup__icon' ></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
